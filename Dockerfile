@@ -1,6 +1,6 @@
-FROM node:7
+FROM node:10.11.0-stretch
 
-MAINTAINER Richard <hello@noxan.net>
+MAINTAINER Noah <noahgray@me.com>
 
 # Install yarn
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
